@@ -1,6 +1,8 @@
 package pers.qiyanwang.service;
 
-//@Component("s")
+import org.springframework.stereotype.Component;
+
+@Component("s")
 public class ProductService {
 
   public void doSomeService(){
