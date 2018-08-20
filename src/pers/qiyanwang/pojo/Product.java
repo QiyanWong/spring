@@ -5,14 +5,12 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
-@Component("p")
 public class Product {
 
   private int id;
   private String name ="product 1";
 //  @Autowired
 
-  @Resource(name="c")
   private Category category;
   public int getId() {
     return id;
