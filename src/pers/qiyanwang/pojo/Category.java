@@ -1,10 +1,10 @@
 package pers.qiyanwang.pojo;
 
 import org.springframework.stereotype.Component;
-@Component("c")
+//@Component("c")
 public class Category {
   private int id;
-  private String name = "category 1";
+  private String name;
   public int getId() {
     return id;
   }
